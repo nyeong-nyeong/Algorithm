@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ConditionOfTheTriangle {
+public class ConditionOfTheTriangle1 {
 
     // 삼각형의 완성조건(1)
     // 선분 세 개로 삼각형을 만들기 위해서는 다음과 같은 조건을 만족해야 합니다.
