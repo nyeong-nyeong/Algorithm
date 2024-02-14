@@ -1,4 +1,4 @@
-package programmers.level_zero;
+package programmers.level0;
 
 public class Letter {
 

@@ -1,4 +1,4 @@
-package programmers.level_zero;
+package programmers.level0;
 
 public class DiscountStore {
     public int solution(int price) {

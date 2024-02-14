@@ -1,4 +1,4 @@
-package programmers.level_zero;
+package programmers.level0;
 
 public class ArrayX2 {
     public int[] solution(int[] numbers) {

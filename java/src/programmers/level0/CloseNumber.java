@@ -1,4 +1,4 @@
-package programmers.level_zero;
+package programmers.level0;
 
 import java.util.Arrays;
 
@@ -24,5 +24,4 @@ public class CloseNumber {
         }
         return answer;
     }
-
 }

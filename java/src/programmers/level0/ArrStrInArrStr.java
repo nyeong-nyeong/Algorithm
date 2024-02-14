@@ -1,4 +1,4 @@
-package programmers.level_zero;
+package programmers.level0;
 
 public class ArrStrInArrStr {
 
@@ -9,4 +9,5 @@ public class ArrStrInArrStr {
 
         return str1.contains(str2) ? 1 : 2;
     }
+
 }
