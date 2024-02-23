@@ -1,5 +1,3 @@
--- 업그레이드 할 수 없는 아이템 구하기
-
 select 
 	item_id as item_id ,
 	item_name as item_name ,
