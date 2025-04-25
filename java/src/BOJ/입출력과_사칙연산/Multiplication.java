@@ -1,0 +1,17 @@
+package BOJ.입출력과_사칙연산;
+
+import java.util.Scanner;
+
+// 2588
+public class Multiplication {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(a * (b % 10));
+        System.out.println(a * ((b / 10) % 10));
+        System.out.println(a * (b / 100));
+        System.out.println(a * b);
+    }
+}
