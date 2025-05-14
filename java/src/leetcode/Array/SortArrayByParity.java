@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class SortArrayByParity {
     public int[] solution(int[] nums) {

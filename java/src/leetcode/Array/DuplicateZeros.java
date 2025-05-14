@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class DuplicateZeros {
     public void duplicateZeros(int[] arr) {

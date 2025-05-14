@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class FindNumbersWithEvenNumberOfDigits {
     public int findNumbers(int[] nums) {

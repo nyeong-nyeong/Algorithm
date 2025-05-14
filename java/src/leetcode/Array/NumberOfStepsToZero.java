@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class NumberOfStepsToZero {
     public int numberOfSteps(int num) {

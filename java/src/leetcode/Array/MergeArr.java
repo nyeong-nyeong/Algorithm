@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class MergeArr {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

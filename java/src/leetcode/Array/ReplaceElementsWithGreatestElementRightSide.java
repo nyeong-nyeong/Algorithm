@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class ReplaceElementsWithGreatestElementRightSide {
     public int[] replaceElements(int[] arr) {

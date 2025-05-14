@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 // 1480
 public class RunningSumOf1dArray {

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class ThirdMaximumNumber {
     public int thirdMax(int[] nums) {

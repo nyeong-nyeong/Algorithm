@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 public class MoveZeros {
     public void solution(int[] nums) {

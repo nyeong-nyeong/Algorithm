@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Array;
 
 // 383
 public class RansomNote {
