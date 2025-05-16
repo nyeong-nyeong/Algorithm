@@ -18,12 +18,12 @@ public class ReverseVowels {
                 right--;
             }
 
-            char temp = arr[left];
-            arr[left] = arr[right];
+            char temp = arr[right];
+            arr[right] = arr[left];
             arr[left] = temp;
 
             left++;
-            left--;
+            right--;
         }
         return String.valueOf(arr);
     }
