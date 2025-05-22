@@ -2,14 +2,21 @@ package leetcode.plan75.array_string;
 
 public class Compress {
     public int solution(char[] chars) {
-        int[] arr = new int[26];
-        for (char c : chars) {
-            arr[c]++;
+        int result = 0;
+        for (int i = 0; i < chars.length; ) {
+            char c = chars[i];
+            int count = 0;
+            while (i < chars.length && c == chars[i]) {
+                count++;
+                i++;
+            }
+            chars[result++] = c;
+            if (count > 1) {
+                for (char cc : String.valueOf(count).toCharArray()) {
+                    chars[result++] = cc;
+                }
+            }
         }
-        int count = 0;
-        for (int a : arr) {
-            if (a != 0) count++;
-        }
-        return count;
+        return result;
     }
 }
