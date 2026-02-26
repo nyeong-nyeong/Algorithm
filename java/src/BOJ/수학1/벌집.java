@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class 벌집 {
     public static void main(String[] args) throws IOException {
-
+        // 2292
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int target = Integer.parseInt(br.readLine());
 
